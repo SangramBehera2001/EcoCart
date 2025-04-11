@@ -1,0 +1,221 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f9f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+  color: #4CAF50;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  color: #4CAF50 !important;
+}
+
+.navbar .nav-link:hover {
+  color: #388e3c !important;
+}
+
+/* Button Styles */
+.btn-eco {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-eco:hover {
+  background-color: #388e3c;
+}
+
+.btn-eco:focus {
+  outline: none;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #4CAF50;
+  background-image: url('images/hero-bg.jpg');
+  background-size: cover;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+}
+
+.hero-section .btn-eco {
+  font-size: 1.2rem;
+}
+
+/* Form Styles */
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+
+.form-label {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.form-check-label {
+  font-size: 1rem;
+}
+
+/* Card Styles for Products */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.card img {
+  border-radius: 10px;
+}
+
+.card-footer {
+  background-color: #f7f7f7;
+  padding: 10px;
+  text-align: right;
+}
+
+.card-footer .btn-eco {
+  font-size: 1rem;
+  padding: 10px 20px;
+}
+
+/* Footer */
+footer p {
+  font-size: 0.9rem;
+  margin: 0;
+  color: #ddd;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-section p {
+    font-size: 1.1rem;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  .btn-eco {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+}
+
+/* Register & Login Pages */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+}
+
+.text-center {
+  margin-top: 20px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4CAF50;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
