@@ -21,6 +21,4 @@ public class UserController {
         return "register";
     }
 
-    @GetMapping("/product")
-    public String productPage() { return "product"; }
 }
