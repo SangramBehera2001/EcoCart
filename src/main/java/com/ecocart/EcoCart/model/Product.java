@@ -66,11 +66,7 @@ public class Product {
         this.ecoFriendly = ecoFriendly;
     }
 
-    public double getCarbonFootprint() {
-        return carbonFootprint;
-    }
+    public double getCarbonFootprint() {return carbonFootprint;}
 
-    public void setCarbonFootprint(double carbonFootprint) {
-        this.carbonFootprint = carbonFootprint;
-    }
+    public void setCarbonFootprint(double carbonFootprint) {this.carbonFootprint = carbonFootprint;}
 }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop - EcoCart</title>
+  <link th:href="@{/css/styles.css}" rel="stylesheet">
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a th:href="@{/}" class="logo">EcoCart</a></li>
+      <li><a th:href="@{/shop}">Shop</a></li>
+      <li><a th:href="@{/about}">About</a></li>
+      <li><a th:href="@{/sustainability}">Sustainability</a></li>
+      <li><a th:href="@{/contact}">Contact</a></li>
+      <li><a th:href="@{/login}">Login</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-section">
+    <h1>Explore Our Eco-Friendly Products</h1>
+    <p>Discover a variety of sustainable and environment-friendly products carefully curated for you.</p>
+    <a th:href="@{/products}" class="btn">Browse Products</a>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 EcoCart. All rights reserved.</p>
+</footer>
+</body>
+</html>
